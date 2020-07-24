@@ -1,0 +1,52 @@
+*{
+    font-family: sans-serif;
+}
+.underline{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+nav{
+    background-color: #015668;
+}
+.navbar a{
+    margin: 0px 5px;    
+    font-weight: bold;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #ffd369;
+}
+
+section#banner{             
+    width: 100%;
+    height: 640px;  
+    background-image: url(images/kailashjiBrand.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;      
+    color: white;      
+    font-weight: bold;       
+  }
+
+  #bio{      
+      background-color: #fff1cf;
+      justify-content: left;
+  }
+  #bodyBio{
+      background-color: #263f44;
+  }
+
+  #team figcaption{
+      padding: 20px 0px;
+  }
+  #team figcaption i{
+      font-size: large;
+      font-family: serif;
+      font-weight: bold;
+      color: #015668;
+  }
